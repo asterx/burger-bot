@@ -1,0 +1,33 @@
+{
+  "name": "burger-bot",
+  "version": "1.0.0",
+  "description": "Simple telegram bot with single purpose - ping dinner chat at specified time",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asterx/burger-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Michael Vaganov <asterx@asterx.me>",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/asterx/burger-bot/raw/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "node-telegram-bot-api": "^0.21.1",
+    "vow-asker": "^1.0.0"
+  },
+  "engine": {
+    "node": ">=4.0"
+  }
+}
